@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Car Explorer", page_icon="🚗", layout="wide")
 
 # Load dataset
-df = pd.read_csv("../DataSets/CARS.csv")
+df = pd.read_csv("CARS.csv")
 
 # Title and description
 st.markdown("<h1 style='text-align: center; color: #ff4b4b;'>🚗 Car Brand & Model Explorer</h1>", unsafe_allow_html=True)
